@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-underline-offset",
+          "width: fit-content",
+          "min-height: fit-content",
+          "height: fit-content"
+        ]
+      }
+    ]
+  }
+}
